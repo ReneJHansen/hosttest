@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+    text-align: center;
+}
+
+.className {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto, auto, auto;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.grid-container > ul {
+    background-color: rgba(255, 255, 255, 0.8);
+    list-style-position: inside;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.grid-container > li {
+    display: inline-block;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.stats {
+    grid-column-start: 1;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.skills {
+    grid-column-start: 2;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.tools {
+    grid-column-start: 3;
+    padding: 10px;
+    font-size: 14px;
+}
